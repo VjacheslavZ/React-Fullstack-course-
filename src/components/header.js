@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import '../css/styles.css'
 
-
-
 class Header extends Component{
 
     state = {
@@ -12,7 +10,7 @@ class Header extends Component{
     inputChangeHandler = (event) => {
         this.setState({
             keywords: event.target.value
-        })
+        });
     };
 
     render(){
