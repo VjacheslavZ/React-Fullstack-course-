@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1664e858-91ac-4768-8fb3-7b087d9ff6bf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/src/components/profiles.js" beforeDir="false" afterPath="$PROJECT_DIR$/router/src/components/profiles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/router/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/router/src/index.js" afterDir="false" />
     </list>
     <ignored path=".idea/misc.xml" />
@@ -38,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/router/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <caret line="31" column="55" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="55" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -82,11 +83,8 @@
       <file leaf-file-name="profiles.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/router/src/components/profiles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -130,9 +128,9 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/router/src/components/profile.js" />
         <option value="$PROJECT_DIR$/router/src/components/home.js" />
-        <option value="$PROJECT_DIR$/router/src/components/profiles.js" />
         <option value="$PROJECT_DIR$/router/src/components/posts.js" />
         <option value="$PROJECT_DIR$/router/src/components/post_item.js" />
+        <option value="$PROJECT_DIR$/router/src/components/profiles.js" />
         <option value="$PROJECT_DIR$/router/src/index.js" />
       </list>
     </option>
@@ -278,7 +276,7 @@
       <workItem from="1522701579517" duration="3149000" />
       <workItem from="1522783106806" duration="5013000" />
       <workItem from="1522959407341" duration="3713000" />
-      <workItem from="1522968495006" duration="345000" />
+      <workItem from="1522968495006" duration="1159000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1522448362398</created>
@@ -336,11 +334,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522962887363</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="lesson27 use router switch">
+      <created>1522968994372</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1522968994372</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30200000" />
+    <option name="totallyTimeSpent" value="31014000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -412,7 +417,8 @@
     <MESSAGE value="lesson23 add router" />
     <MESSAGE value="lesson25 add links in router" />
     <MESSAGE value="lesson26 params and urls" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson26 params and urls" />
+    <MESSAGE value="lesson27 use router switch" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson27 use router switch" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/router/src/components/posts.js">
@@ -439,9 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -749,16 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router/src/components/profiles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/router/src/components/posts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -779,10 +772,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/router/src/components/profiles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/router/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <caret line="31" column="55" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="55" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

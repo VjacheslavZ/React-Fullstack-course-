@@ -28,7 +28,8 @@ const App = () => {
                 <Route path='/posts/:id/:username/' component={PostItem}/>
                 <Route path='/profile' component={Profiles}/>
                 <Route path='/posts' exact component={Posts}/>
-                <Route path='/' component={Home}/>
+                <Route path='/' exact component={Home}/>
+                <Route render={() => <h3>oops 404</h3>}/>
             </Switch>
 
           </div>
