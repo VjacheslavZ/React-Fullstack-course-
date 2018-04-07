@@ -7,6 +7,7 @@ import Home from './components/home';
 import Posts from './components/posts';
 import Profiles from './components/profiles';
 import PostItem from  './components/post_item';
+import  Life from './components/lifecycles';
 
 const App = () => {
   return(
@@ -22,13 +23,17 @@ const App = () => {
                 <NavLink to={{
                   pathname:'/profile',
                 }}>Profile</NavLink><br/>
+                <NavLink to='/life'>Life</NavLink><br/>
+
                 <hr/>
             </header>
             <Switch>
                 <Route path='/posts/:id/:username/' component={PostItem}/>
                 <Route path='/profile' component={Profiles}/>
                 <Route path='/posts' exact component={Posts}/>
+                <Route path='/life' component={Life}/>
                 <Route path='/' exact component={Home}/>
+
                 <Route render={() => <h3>oops 404</h3>}/>
             </Switch>
 
