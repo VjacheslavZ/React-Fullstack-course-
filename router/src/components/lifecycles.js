@@ -1,43 +1,36 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 
-class  Life extends Component {
+class  Life extends PureComponent {
+    //1 get def props
+    //2 set def states
     state = {
         title:'Life cycles'
     };
-    //1 get def props
-    //2 set def states
     //3 before render
-    componentWillMount(){
-        console.log('before render')
-    }
-    componentWillUpdate(){
+    // componentWillMount(){
+    //     console.log('before render')
+    // }
+    // componentWillUpdate(){}
+    // componentDidUpdate(){}
 
-    }
-    componentDidUpdate(){
-
-    }
-
-    shouldComponentUpdate(nextProps, nexState){
-        console.log(this.state.title);
-        console.log(nexState.title);
-
-        if(nexState.title === 'something else'){
-            return false
-        }
-        return true;
-    }
+    // shouldComponentUpdate(nextProps, nexState){
+    //     if(nexState.title === this.state.title){
+    //         return false
+    //     }
+    //     return true;
+    // }
     
-    componentWillReceiveProps(){
-        console.log('before reveive props');
-    }
-
-    componentWillUnmount(){
-        console.log("unmount")
-    }
+    // componentWillReceiveProps(){
+    //     console.log('before reveive props');
+    // }
+    //
+    // componentWillUnmount(){
+    //     console.log("unmount")
+    // }
 
     //4 render jsx
-
     render(){
+        console.log('RENDER');
         return(
             <div>
                 <h3>{this.state.title}</h3>
@@ -50,9 +43,9 @@ class  Life extends Component {
         )
     }
     //5 after jsx
-    componentDidMount(){
-        document.querySelector('h3').style.color = 'red'
-    }
+    // componentDidMount(){
+    //     document.querySelector('h3').style.color = 'red'
+    // }
 }
 
 export default Life;

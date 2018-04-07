@@ -7,7 +7,8 @@ import Home from './components/home';
 import Posts from './components/posts';
 import Profiles from './components/profiles';
 import PostItem from  './components/post_item';
-import  Life from './components/lifecycles';
+import Life from './components/lifecycles';
+import Conditional from './components/conditional';
 
 const App = () => {
   return(
@@ -24,6 +25,7 @@ const App = () => {
                   pathname:'/profile',
                 }}>Profile</NavLink><br/>
                 <NavLink to='/life'>Life</NavLink><br/>
+                <NavLink to='/conditional'>Conditional</NavLink><br/>
 
                 <hr/>
             </header>
@@ -32,6 +34,7 @@ const App = () => {
                 <Route path='/profile' component={Profiles}/>
                 <Route path='/posts' exact component={Posts}/>
                 <Route path='/life' component={Life}/>
+                <Route path='/conditional' component={Conditional}/>
                 <Route path='/' exact component={Home}/>
 
                 <Route render={() => <h3>oops 404</h3>}/>

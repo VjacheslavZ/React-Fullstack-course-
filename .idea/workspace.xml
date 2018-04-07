@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1664e858-91ac-4768-8fb3-7b087d9ff6bf" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/router/src/components/lifecycles.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/router/src/components/conditional.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/router/src/components/lifecycles.js" afterPath="$PROJECT_DIR$/router/src/components/lifecycles.js" />
       <change beforePath="$PROJECT_DIR$/router/src/index.js" afterPath="$PROJECT_DIR$/router/src/index.js" />
     </list>
     <ignored path=".idea/misc.xml" />
@@ -38,12 +39,21 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/router/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="184">
+              <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#156#193#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conditional.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/router/src/components/conditional.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,8 +61,8 @@
       <file leaf-file-name="lifecycles.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/router/src/components/lifecycles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+            <state relative-caret-position="138">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -62,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/router/src/components/home.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
-              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <caret line="5" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -145,6 +155,7 @@
         <option value="$PROJECT_DIR$/router/src/components/post_item.js" />
         <option value="$PROJECT_DIR$/router/src/components/profiles.js" />
         <option value="$PROJECT_DIR$/router/src/index.js" />
+        <option value="$PROJECT_DIR$/router/src/components/conditional.js" />
         <option value="$PROJECT_DIR$/router/src/components/lifecycles.js" />
       </list>
     </option>
@@ -170,7 +181,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="537" />
+    <option name="width" value="607" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectView">
@@ -312,7 +323,7 @@
       <workItem from="1522959407341" duration="3713000" />
       <workItem from="1522968495006" duration="1159000" />
       <workItem from="1523100698638" duration="3116000" />
-      <workItem from="1523104489118" duration="2103000" />
+      <workItem from="1523104489118" duration="5104000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1522448362398</created>
@@ -377,11 +388,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522968994372</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="lesson30 lifeCycles end">
+      <created>1523106647295</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1523106647295</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36233000" />
+    <option name="totallyTimeSpent" value="39234000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -393,10 +411,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="537" height="728" extended-state="0" />
+    <frame x="0" y="0" width="607" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12708019" sideWeight="0.48769575" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906765" sideWeight="0.48769575" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261851" sideWeight="0.26159555" order="7" side_tool="true" content_ui="tabs" />
@@ -454,20 +472,14 @@
     <MESSAGE value="lesson25 add links in router" />
     <MESSAGE value="lesson26 params and urls" />
     <MESSAGE value="lesson27 use router switch" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson27 use router switch" />
+    <MESSAGE value="lesson30 lifeCycles end" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson30 lifeCycles end" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/router/src/components/profiles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/news_list_item.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -777,14 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router/src/components/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/router/src/components/posts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -813,21 +817,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/router/src/components/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/router/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        <state relative-caret-position="184">
+          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#156#193#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router/src/components/conditional.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/router/src/components/lifecycles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        <state relative-caret-position="138">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
