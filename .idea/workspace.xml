@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1664e858-91ac-4768-8fb3-7b087d9ff6bf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/transitions/src/components/Transition.js" afterPath="$PROJECT_DIR$/transitions/src/components/Transition.js" />
+      <change beforePath="$PROJECT_DIR$/transitions/src/components/CSStransition.js" afterPath="$PROJECT_DIR$/transitions/src/components/CSStransition.js" />
+      <change beforePath="$PROJECT_DIR$/transitions/src/components/tgroup.js" afterPath="$PROJECT_DIR$/transitions/src/components/tgroup.js" />
       <change beforePath="$PROJECT_DIR$/transitions/src/css/App.css" afterPath="$PROJECT_DIR$/transitions/src/css/App.css" />
     </list>
     <ignored path=".idea/misc.xml" />
@@ -35,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CSStransition.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CSStransition.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/transitions/src/components/CSStransition.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="171">
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -50,8 +51,8 @@
       <file leaf-file-name="tgroup.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/transitions/src/components/tgroup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="152">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -59,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Transition.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Transition.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/transitions/src/components/Transition.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            <state relative-caret-position="330">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="39" selection-end-column="21" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -74,8 +75,8 @@
       <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/transitions/src/css/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="93" column="31" lean-forward="false" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+            <state relative-caret-position="19">
+              <caret line="122" column="22" lean-forward="true" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -131,8 +132,10 @@
         <option value="$PROJECT_DIR$/router/src/index.js" />
         <option value="$PROJECT_DIR$/router/src/components/user.js" />
         <option value="$PROJECT_DIR$/router/src/hoc/userHoc.js" />
-        <option value="$PROJECT_DIR$/transitions/src/css/App.css" />
         <option value="$PROJECT_DIR$/transitions/src/components/Transition.js" />
+        <option value="$PROJECT_DIR$/transitions/src/components/CSStransition.js" />
+        <option value="$PROJECT_DIR$/transitions/src/components/tgroup.js" />
+        <option value="$PROJECT_DIR$/transitions/src/css/App.css" />
       </list>
     </option>
   </component>
@@ -159,7 +162,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="571" />
+    <option name="width" value="474" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -312,7 +315,7 @@
       <workItem from="1522959407341" duration="3713000" />
       <workItem from="1522968495006" duration="1159000" />
       <workItem from="1523100698638" duration="3116000" />
-      <workItem from="1523104489118" duration="15331000" />
+      <workItem from="1523104489118" duration="18969000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1522448362398</created>
@@ -412,11 +415,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523126458758</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="css transitions">
+      <created>1523127531991</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1523127531991</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49461000" />
+    <option name="totallyTimeSpent" value="53099000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -428,7 +438,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="571" height="728" extended-state="0" />
+    <frame x="0" y="0" width="474" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2806354" sideWeight="0.4860051" order="0" side_tool="false" content_ui="combo" />
@@ -494,7 +504,8 @@
     <MESSAGE value="hok's" />
     <MESSAGE value="transitions begin" />
     <MESSAGE value="using react transitions" />
-    <option name="LAST_COMMIT_MESSAGE" value="using react transitions" />
+    <MESSAGE value="css transitions" />
+    <option name="LAST_COMMIT_MESSAGE" value="css transitions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -845,26 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/transitions/src/components/CSStransition.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/transitions/src/components/tgroup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/transitions/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -873,18 +864,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/transitions/src/components/Transition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="39" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transitions/src/components/tgroup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/transitions/src/css/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="93" column="31" lean-forward="false" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+        <state relative-caret-position="19">
+          <caret line="122" column="22" lean-forward="true" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/transitions/src/components/Transition.js">
+    <entry file="file://$PROJECT_DIR$/transitions/src/components/CSStransition.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        <state relative-caret-position="171">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
