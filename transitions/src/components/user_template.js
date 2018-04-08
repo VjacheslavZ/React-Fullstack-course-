@@ -22,7 +22,11 @@ UserTempalte.propTypes = {
     shanish: PropTypes.bool,
     message: PropTypes.func,
     car: PropTypes.object,
-    mother: PropTypes.string.isRequired
+    mother: function (props, propsName, componentName) {
+        if(props[propsName] !== 'Jane'){
+            return new Error(`the name ${props[propsName]} is incorrect`)
+        }
+    }
 };
 
 export default UserTempalte
