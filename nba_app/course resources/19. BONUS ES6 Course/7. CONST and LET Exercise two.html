@@ -1,0 +1,53 @@
+<div class="asset-container">
+    <div class="asset-container__padding article-view">
+        <div class="w3c-default">
+            <p><strong>Refactor the code !!</strong></p>
+
+<p>We have div, and if the user clicks on it, will get a cupcake with an amount to pay and the order number.Refactor the code to meet ES6 standards.</p>
+
+<p>Hint !! read the comments, here is the code.</p>
+
+<p><strong>Html:</strong></p>
+
+<pre class="prettyprint linenums">&lt;div class="cupcake"&gt;
+ Get a random cupcake with a random price
+ &lt;/div&gt;
+ &lt;div class="orders"&gt;&lt;/div&gt;</pre>
+
+<p><strong>JS:</strong></p>
+
+<pre class="prettyprint linenums">var cupcake = document.querySelector('.cupcake');
+var container = document.querySelector('.orders')
+
+var cupcakes = [
+ {id:1,flavor:'Strawberry'},
+ {id:2,flavor:'Apple'},
+ {id:3,flavor:'Banana'}
+]
+
+var randomCupcake;
+var orderNumber = 0;
+var baseAmount = 5;
+var finalAmount;
+var dicountID = 2;
+var dicountAmount = 3;
+var message
+
+cupcake.addEventListener("click",function(){
+ // Select a random cupcake
+ randomCupcake = Math.floor(Math.random() * cupcakes.length) + 0;
+
+ // Increment the order number, we get a different order with each cupcake.
+ orderNumber += 1;
+
+ // Depending on the "dicountID" variable, this cupcake is on sale or not.
+ finalAmount = dicountID == cupcakes[randomCupcake].id ? (baseAmount -dicountAmount ):baseAmount;
+
+ // Create the message
+ message = '&lt;div&gt;- You won a ' + cupcakes[randomCupcake].flavor + ' for ' + finalAmount + '$ , your order # is '+ orderNumber + '&lt;/div&gt;'
+ container.insertAdjacentHTML('beforeend',message)
+
+});</pre>
+        </div>
+    </div>
+</div>
