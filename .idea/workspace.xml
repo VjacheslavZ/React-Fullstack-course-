@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1664e858-91ac-4768-8fb3-7b087d9ff6bf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/nba_app/src/hoc/Layout/layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nba_app/src/hoc/Layout/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba_app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nba_app/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba_app/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/nba_app/src/routes.js" afterDir="false" />
-    </list>
+    <list default="true" id="1664e858-91ac-4768-8fb3-7b087d9ff6bf" name="Default" comment="" />
     <ignored path=".idea/misc.xml" />
     <ignored path=".idea/modules.xml" />
     <ignored path=".idea/react-coures.iml" />
@@ -61,11 +55,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="layout.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nba_app/src/hoc/Layout/layout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="34">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,17 +70,8 @@
       <file leaf-file-name="layout.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nba_app/src/hoc/Layout/layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nba_app/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="97" selection-start-line="10" selection-start-column="97" selection-end-line="10" selection-end-column="97" />
+            <state relative-caret-position="153">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -162,9 +150,9 @@
         <option value="$PROJECT_DIR$/nba_app/src/index.js" />
         <option value="$PROJECT_DIR$/nba_app/src/components/Home/home.js" />
         <option value="$PROJECT_DIR$/nba_app/src/routes.js" />
-        <option value="$PROJECT_DIR$/nba_app/src/hoc/Layout/layout.js" />
-        <option value="$PROJECT_DIR$/nba_app/src/hoc/Layout/layout.css" />
         <option value="$PROJECT_DIR$/nba_app/public/index.html" />
+        <option value="$PROJECT_DIR$/nba_app/src/hoc/Layout/layout.css" />
+        <option value="$PROJECT_DIR$/nba_app/src/hoc/Layout/layout.js" />
       </list>
     </option>
   </component>
@@ -216,40 +204,6 @@
               <item name="React-Fullstack-course-" type="b2602c69:ProjectViewProjectNode" />
               <item name="React-Fullstack-course-" type="462c0819:PsiDirectoryNode" />
               <item name="nba_app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-Fullstack-course-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-Fullstack-course-" type="462c0819:PsiDirectoryNode" />
-              <item name="nba_app" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-Fullstack-course-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-Fullstack-course-" type="462c0819:PsiDirectoryNode" />
-              <item name="nba_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-Fullstack-course-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-Fullstack-course-" type="462c0819:PsiDirectoryNode" />
-              <item name="nba_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-Fullstack-course-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-Fullstack-course-" type="462c0819:PsiDirectoryNode" />
-              <item name="nba_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hoc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-Fullstack-course-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-Fullstack-course-" type="462c0819:PsiDirectoryNode" />
-              <item name="nba_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hoc" type="462c0819:PsiDirectoryNode" />
-              <item name="Layout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -372,7 +326,7 @@
       <workItem from="1523104489118" duration="19013000" />
       <workItem from="1523175605155" duration="7620000" />
       <workItem from="1527365985400" duration="3326000" />
-      <workItem from="1527369459237" duration="4053000" />
+      <workItem from="1527369459237" duration="4301000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1522448362398</created>
@@ -521,11 +475,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527371197388</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add Roboto font, add base styles,">
+      <created>1527434238292</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1527434238292</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68142000" />
+    <option name="totallyTimeSpent" value="68390000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -537,18 +498,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="624" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.79215115" weight="0.32935154" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.79215115" visible="true" weight="0.329294" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.33333334" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.26159555" side_tool="true" weight="0.3261851" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.33295712" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.73840445" visible="true" weight="0.22347629" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.73840445" weight="0.22346368" />
       <window_info id="npm" order="2" sideWeight="0.20784883" side_tool="true" weight="0.24038461" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.22905028" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4480447" />
       <window_info id="Favorites" order="2" sideWeight="0.5067568" side_tool="true" weight="0.29431072" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -637,7 +597,8 @@
     <MESSAGE value="create react app" />
     <MESSAGE value="course resources add" />
     <MESSAGE value="add style links, add component Home, add browserRouter" />
-    <option name="LAST_COMMIT_MESSAGE" value="add style links, add component Home, add browserRouter" />
+    <MESSAGE value="add Roboto font, add base styles," />
+    <option name="LAST_COMMIT_MESSAGE" value="add Roboto font, add base styles," />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -723,24 +684,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nba_app/src/hoc/Layout/layout.js">
+    <entry file="file://$PROJECT_DIR$/nba_app/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="170">
+          <caret line="10" column="97" selection-start-line="10" selection-start-column="97" selection-end-line="10" selection-end-column="97" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nba_app/src/hoc/Layout/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nba_app/public/index.html">
+    <entry file="file://$PROJECT_DIR$/nba_app/src/hoc/Layout/layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="97" selection-start-line="10" selection-start-column="97" selection-end-line="10" selection-end-column="97" />
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
