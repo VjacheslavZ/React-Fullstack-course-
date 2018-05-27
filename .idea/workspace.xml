@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1664e858-91ac-4768-8fb3-7b087d9ff6bf" name="Default" comment="" />
+    <list default="true" id="1664e858-91ac-4768-8fb3-7b087d9ff6bf" name="Default" comment="add images for project" />
     <ignored path=".idea/misc.xml" />
     <ignored path=".idea/modules.xml" />
     <ignored path=".idea/react-coures.iml" />
@@ -58,8 +58,8 @@
       <file leaf-file-name="layout.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nba_app/src/hoc/Layout/layout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+            <state relative-caret-position="323">
+              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -326,7 +326,7 @@
       <workItem from="1523104489118" duration="19013000" />
       <workItem from="1523175605155" duration="7620000" />
       <workItem from="1527365985400" duration="3326000" />
-      <workItem from="1527369459237" duration="4301000" />
+      <workItem from="1527369459237" duration="4544000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1522448362398</created>
@@ -482,11 +482,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527434238292</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add images for project">
+      <created>1527434370273</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1527434370273</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68390000" />
+    <option name="totallyTimeSpent" value="68633000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -499,8 +506,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.79215115" visible="true" weight="0.329294" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79215115" visible="true" weight="0.329294" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.33333334" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.26159555" side_tool="true" weight="0.3261851" />
@@ -508,7 +516,7 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.73840445" weight="0.22346368" />
       <window_info id="npm" order="2" sideWeight="0.20784883" side_tool="true" weight="0.24038461" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4480447" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29832402" />
       <window_info id="Favorites" order="2" sideWeight="0.5067568" side_tool="true" weight="0.29431072" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -598,7 +606,8 @@
     <MESSAGE value="course resources add" />
     <MESSAGE value="add style links, add component Home, add browserRouter" />
     <MESSAGE value="add Roboto font, add base styles," />
-    <option name="LAST_COMMIT_MESSAGE" value="add Roboto font, add base styles," />
+    <MESSAGE value="add images for project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add images for project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -700,8 +709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nba_app/src/hoc/Layout/layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        <state relative-caret-position="323">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
